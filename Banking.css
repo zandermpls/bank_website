@@ -5,6 +5,11 @@
 	stroke: 20px;
 	
 }
+ 
+p {
+
+	margin-bottom: 0px;
+}
 
 #h1 {
 	color: gray;
@@ -13,7 +18,7 @@
 	font-size: 40px;
 }
 
-#h2 {
+h2 {
 	color: gray;
 	font-size: 14px;
 	text-align: center;
@@ -29,8 +34,11 @@ body{width:400px;margin:0 auto;padding:25px;background:-webkit-linear-gradient(#
   border: 4px solid #08f;
 }
 
-#box {
+div.graph {
+	float: right;
+}
 
+#box {
 	color: gray;
 	width: 900px;
 	height: 700px;
@@ -41,8 +49,10 @@ body{width:400px;margin:0 auto;padding:25px;background:-webkit-linear-gradient(#
 canvas {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40%;
 }
+
+/* a comment */
 
 #ul { 
     display: block;
@@ -54,8 +64,22 @@ canvas {
     padding-left: 40px;
 }
 
+ul {
+	display: block;
+    list-style-type: none;
+    margin-top: 500px;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ul li {
+	list-style: none;
+}
+
 #logo {
-	box-shadow: 56px 21px 4px 34px black;
+	box-shadow: 56px 21px 4px 34px #008;
 	empty-cells: show;
 	width: 100%;
 }
@@ -70,21 +94,23 @@ canvas {
 	
 }
 
-#banking {
-
-}
-
 button {
+
+	margin-bottom: 0px;
 	color: gray;
 	width: 100px;
 	height: 20px;
 	vertical-align: right;
 }
 
-footer {
+footer#banking {
 	width: auto;
 	height: auto;
 	position: fixed;
-	bottom: fixed;
+	margin-top: 35px;
 	margin-bottom: 1px;
+}
+
+form {
+	margin-top: -111px;
 }
