@@ -1,0 +1,90 @@
+#header {
+	width: auto;
+	height: auto;
+	position: fixed;
+	stroke: 20px;
+	
+}
+
+#h1 {
+	color: gray;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 40px;
+}
+
+#h2 {
+	color: gray;
+	font-size: 14px;
+	text-align: center;
+}
+
+*,*:before,*:after{margin:0;padding:0;}
+body{width:400px;margin:0 auto;padding:25px;background:-webkit-linear-gradient(#4aa5eb 0%, #ffffff 100%);color:gray;font-family:Georgia;}
+
+#div {
+  position: relative;
+  width: 400px;
+  height: 150px;
+  border: 4px solid #08f;
+}
+
+#box {
+
+	color: gray;
+	width: 900px;
+	height: 700px;
+	max-height: 1000px;
+	max-width: auto;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#ul { 
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+#logo {
+	box-shadow: 56px 21px 4px 34px black;
+	empty-cells: show;
+	width: 100%;
+}
+
+#motion {
+	text-decoration: blink;
+	text-decoration: underline;
+	text-overflow: ellipsis;
+	font-family: fantasy;
+	font-size: x-large;
+	font-weight: 400;
+	
+}
+
+#banking {
+
+}
+
+button {
+	color: gray;
+	width: 100px;
+	height: 20px;
+	vertical-align: right;
+}
+
+footer {
+	width: auto;
+	height: auto;
+	position: fixed;
+	bottom: fixed;
+	margin-bottom: 1px;
+}
